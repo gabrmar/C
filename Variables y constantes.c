@@ -19,6 +19,6 @@ int main (){
    // de comentarios 
    printf("%d,%c",k,c);
 
-
+    return 0;
 
 }
