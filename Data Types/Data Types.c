@@ -33,7 +33,7 @@ int main (){
     printf("Float bytes:%d\n",size2);
     printf("Double bytes:%d\n",size3);
     printf("Char bytes:%ld\n",size1); // this time there is no difference between %d abnd %ld
-
+    
     return 0;
 
 }

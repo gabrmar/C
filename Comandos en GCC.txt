@@ -1,0 +1,6 @@
+g++ <código> <--- genera el ejecutable usando el compilador GNU para C++
+gcc <Código> <--- genera el ejecutable usando el compilador GNU para Código
+
+Nota: Ambos generan arhivos .exe, pero desde la perspectiva del compilafor GNU (GCC) son de código feunte
+difente y por ello lo que se puede hacer con ellos dentro de GCC. archvos .c y .cpp pueden ser compilados
+por medio de cualquiera de estos dos comandos, sin embargo tener en cuenta la diferencia mencionada.
