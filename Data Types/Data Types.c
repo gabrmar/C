@@ -7,6 +7,7 @@ int main (){
     float y = 2.1; // floating point number
     double z = 2.1; // floating point number with double precision
     char hello = 'a';  // single character. It must be writen between single quote marks
+    //char cadena[7] = 'galleta' Pending
     
     printf("Printing variables...\n"); // it is necessary to use escape chracters to start a new line
 
@@ -18,12 +19,12 @@ int main (){
     printf("Double variable (short decimal floating point format):%g\n",z); // Also float or double varaible expected and will be printed in a brief format 
     printf("Char variable:%c\n",hello); //char variable expected
 
-    /* Addittionally, C offers a close relationship with hardware data. We can ask for the amount of
+    /* Additionally, C offers a close relationship with hardware data. We can ask for the amount of
      bytes required to store each variable using the following instruction:*/
 
-    int size1 = sizeof(x);
-    int size2 = sizeof(y);
-    int size3 = sizeof(z);
+    int size1 = sizeof(x); // Ans: 4 bytes for intergers
+    int size2 = sizeof(y); // Ans: 4 bytes for floats
+    int size3 = sizeof(z); // 
     int size4 = sizeof(hello);
 
     printf("\n");
