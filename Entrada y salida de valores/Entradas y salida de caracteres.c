@@ -12,8 +12,8 @@ int main (){
     char a = getchar(); // pide un valor tipo caracter
     /*Cuando se utiliza getchar() sólo se espera que el usuario agregue un único caracter. Lo demás lo va a ignorar*/
     printf("Primer valor:");
-    putchar(a);
-    printf("\n");
+    putchar(a); // imprime el valor 
+    printf("\n"); // nueva línea
 
     return 0;
 }
