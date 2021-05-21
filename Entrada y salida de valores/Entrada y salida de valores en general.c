@@ -24,6 +24,12 @@ int main() {
     scanf("%d %f %s", &x, &num, text); // nótese que el arreglo de caracteres no pide dirección de memoria
     //Esto se debe a que la variable de arreglo de actacteres actúa como apuntador de memoria
     printf("Valores guardados:%d, %f, %s",x ,num, text);
+
+    /*Acciones siguientes
+    
+    Colocar por este medio los parametros claves de la función scanf()
+
+    */
     
 
 
