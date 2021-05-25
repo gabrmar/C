@@ -25,12 +25,49 @@ int main() {
     //Esto se debe a que la variable de arreglo de actacteres actúa como apuntador de memoria
     printf("Valores guardados:%d, %f, %s",x ,num, text);
 
-    /*Acciones siguientes
-    
-    Colocar por este medio los parametros claves de la función scanf()
+    /*
+    Como se puede apreciar cuando se usa la función scanf() y la función printf(), la combinación del signo
+    de % más una letra se usa para especificar que tipo de dato se pedirá o se imprimirá en pantalla. Como
+    referencia, aquí está la siguinte lista de letras para indicar tipos de datos:
+
+    - d para enteros
+    - c para un caracter
+    - f para números de punto flotante, es decir con parte decimal 
+    - x para indicar el formato decimal
+
+    A esto se le conoce como caracteres de escape.
+
+    Otro aspecto importante que podemos hacer para definir los datos de entrada es delimitar un tamaño máximo
+    o ignorar algunos de los campos para pedir menos datos de los que el código permite. La estuctura genral 
+    para el scanf() es la siguiente: 
+
+    %[*][max_field]conversion character
+    * evita que ese campo sea llenado por datos
+    max_field puede ser un número cualquiera que limita el tamaño del dato que será guardado en ese campo. 
+    Eso se puede usar para reducir la cantidad de decimales que serán guardados en una variable float o
+    limiar el número de caracteres que se guardarán en un arreglo de caracteres.
+
+    -------Contiuar esta parte cuando hayan ejemplos más concretos del uso del * y el max_field-------
 
     */
     
+    /* 
+    Por otro lado, printf() también cuenta es con caracteres de escape para ajustar su salida a distintas
+    necesidades. A continuación  está una lista de sus caracteres de escape:
+
+    \n nueva línea
+    \t sangría (tab) horizontal
+    \\ backslash
+    \b retroseo (backspace)
+    \' comilla simple
+    \" comilla doble
+
+    La estructural general para printf() es la siguiente:%[-][width].[precision]conversion character 
+    
+    -------Contiuar esta parte cuando hayan ejemplos más concretos-------
+
+
+    */
 
 
     return 0;
